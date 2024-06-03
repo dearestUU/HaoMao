@@ -1,0 +1,11 @@
+name: poc-yaml-fileupload-rce
+rules:
+  - method: GET
+    path: /Fileupload.asmx
+    follow_redirects: true
+    headers: 
+     Content-Type: "text/xml; charset=utf-8"
+     SOAPAction: "http://tempuri.org/UploadFile"
+     Connection: "close"
+    expression: |
+       response.status == 200

@@ -1,0 +1,12 @@
+certifi==2024.6.2
+charset-normalizer==3.3.2
+colorlog==6.8.2
+dacite==1.8.1
+idna==3.7
+prettytable==3.10.0
+pyaml==24.4.0
+PyYAML==6.0.1
+regex==2024.5.15
+requests==2.32.3
+urllib3==2.2.1
+wcwidth==0.2.13
